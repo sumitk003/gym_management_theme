@@ -1,0 +1,25 @@
+.team-section{
+   margin-bottom: 5rem;
+}
+.team-title .section-title span{
+   font-size: 25px;
+   color:$color;
+   font-weight: 400;
+}
+.team-title .section-title {
+   text-align: left;
+   float: left;
+}
+.appoinment-btn {
+   outline: $color;
+   background-color:$color ;
+   text-transform: capitalize;
+   color: #ffffff;
+   cursor: pointer;
+}
+.appoinment-btn:hover {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+

@@ -1,0 +1,89 @@
+.Sign-In-Section{
+   width:100%;
+   background-image: url("../images/login.jpg");
+   height: auto;
+   padding-top: 855px;
+   background-size:cover; 	
+}
+.Sign-In-Section .Sign-In-Text h2{
+   color: #ffffff;
+   text-align: center;
+   font-size: 60px;
+   font-weight:bold;
+   text-transform: uppercase;
+   margin-bottom: 15px;
+   margin-top: -50rem;
+}
+.Sign-In-Section .Sign-In-Text .bt-option a {
+   @include Breadcrumb-link();
+}
+.Sign-In-Section .Sign-In-Text .bt-option span{
+   @include Breadcrumb-span();	
+}
+.Sign-In-Section .heading h2{
+   color: #c4c4c4;
+   text-transform: capitalize;
+   margin-top: -40rem;
+   padding-top: 0.5rem;
+   padding-bottom: 1.5rem;	
+}
+.Sign-In-Section .connect_social{
+   margin-right: 1.5rem;	
+   margin-top:-35rem;
+}
+.Sign-In-Section .connect_social a i{
+   font-size: 1rem;
+   color: #c4c4c4;
+   margin-left: 1.5rem;	
+   padding:10px;
+   background-color: $color;
+   border-radius: 2rem;
+   text-align: center;
+}
+.Sign-In-Section .connect_social a i:hover{
+   color: #ffffff; 
+   background-color: #c4c4c4; 
+}
+.Sign-In-Section .login-form{
+   margin-top: -30rem;
+}
+.Sign-In-Section .login-form label{
+   color: #c4c4c4;
+   padding-bottom: 1rem;
+}
+.Sign-In-Section .login-form label sup{
+   color: $color;
+   font-weight: bolder;
+   font-size: 0.8rem;
+}
+.Sign-In-Section .login-form input{
+   box-shadow: none;
+   outline: none;
+}
+.Sign-In-Section .login-form .forgot-pass{
+   text-decoration: none;
+   color:$color;
+   font-weight: bolder;
+}
+.Sign-In-Section .login-form .form-check >input{
+   background-color: $color;
+   border: none;
+   box-shadow: none;
+}
+.Sign-In-Section .login-form .login-btn{
+   color: #c4c4c4;
+   background-color: $color;
+   border-radius: 1rem;
+   box-shadow: none;
+   outline: none;
+   border: none;
+}
+.Sign-In-Section .login-form .login-footer{
+   margin-top: 1rem;
+   color: #c4c4c4;
+   font-weight: bolder; 
+}
+.Sign-In-Section .login-form .login-footer a{
+   text-decoration: none;
+   color: $color;
+}

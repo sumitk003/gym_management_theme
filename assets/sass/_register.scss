@@ -1,0 +1,60 @@
+.register-section {
+	background-image: url("../images/register.jpg");
+	background-size: cover;
+	width: 100%;
+	height: auto;
+}
+.register-section .register-text h2{
+	color: #ffffff;
+	text-align: center;
+	font-size: 3rem;
+	font-weight:bold;
+	text-transform: uppercase;
+	margin-bottom: 15px;	
+}
+.register-section .register-text .bt-option a {
+	@include Breadcrumb-link();
+ }
+ .register-section .register-text .bt-option span{
+	@include Breadcrumb-span();	
+ }
+.register-section .connect_social a i{
+	font-size: 1rem;
+	color: #c4c4c4;
+	margin-left: 1.5rem;	
+	padding:10px;
+	background-color: $color;
+	border-radius: 2rem;
+	text-align: center;
+}
+
+.register-section .connect_social a i:hover{
+	color: #ffffff; 
+	background-color: #c4c4c4; 
+}
+.register-section .login-form label{
+	color: #c4c4c4;
+	padding-bottom: 1rem;
+}
+.register-section .login-form input{
+	box-shadow: none;
+	outline: none;
+}
+.register-section .login-form .submit-btn{
+	color: #c4c4c4;
+	background-color: $color;
+	border-radius: 1rem;
+	box-shadow: none;
+	outline: none;
+	border: none;
+	margin-bottom: 3rem;
+}
+.register-section .login-form label sup{
+	color: $color;
+	font-weight: bolder;
+	font-size: 0.8rem;
+}
+#gender select option :hover{
+	color: #ffffff;
+	background-color:#f36100;
+}

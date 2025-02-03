@@ -1,0 +1,87 @@
+.pricing-section{
+    margin-bottom: 5rem;
+}
+#ourPlanTitle{
+    color: $color;
+    margin-top: 3rem;
+}
+.plan-item .plan-price h2 {
+    font-size: 60px;
+    color:$color;
+    font-weight: 600;
+}
+.plan-item{
+    text-align: center;
+    padding: 40px 30px 52px;
+    border: 1px solid #464646;
+    transform: skewY(-4deg);
+    transform: skewY(-4deg);
+    transform: skewY(-4deg);
+    transition: all 0.5s;
+    transition: all 0.5s;
+    transition: all 0.5s;
+    margin-bottom: 30px;
+    position: relative;		
+}
+.plan-item:hover {
+    background: #ffffff;
+    border-color: #ffffff;
+}
+.plan-item:hover h3 {
+    color: #111111;
+}
+.plan-item:hover .plan-price span {
+    color: #444444;
+}
+.plan-item .plan-price span {
+    color: #c4c4c4;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.plan-item:hover ul li {
+    color: #111111;		
+}
+.plan-item:hover .primary-btn.pricing-btn {
+    background: #f36100;
+}
+.plan-item h3 {
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 16px;
+    transform: skewY(4deg);
+    transform: skewY(4deg);
+    transform: skewY(4deg);
+}	
+.plan-item .plan-price h2 {
+    font-size: 60px;
+    color:$color;
+    font-weight: 500;
+}
+.plan-item .plan-price {
+    margin-bottom: 30px;
+    -webkit-transform: skewY(4deg);
+    -ms-transform: skewY(4deg);
+    transform: skewY(4deg);
+}
+.plan-item ul {
+    margin-bottom: 40px;
+    -webkit-transform: skewY(4deg);
+    -ms-transform: skewY(4deg);
+    transform: skewY(4deg);
+}	
+.plan-item ul li{
+    font-size: 14px;
+    color: #c4c4c4;
+    line-height: 32px;
+    list-style: none;
+}
+.plan-item .primary-btn.pricing-btn {
+    display: block;
+    background: #333333;
+    transform: skewY(4deg);
+    transform: skewY(4deg);
+    transform: skewY(4deg);
+    color: #ffffff;
+}

@@ -1,0 +1,18 @@
+.Trainers-Section{
+   background-image: url("../images/our_team.jpg");
+   padding-top: 800px;
+   height: auto;
+   background-size: cover;
+   background-position: center;
+}
+.Trainers-Section .Trainers-Text h2 {
+   @include h2();
+   margin-top:-30rem;
+   text-align: center;
+}
+.Trainers-Section .Trainers-Text .bt-option a{
+   @include Breadcrumb-link();
+}
+.Trainers-Section .Trainers-Text .bt-option span{
+   @include Breadcrumb-span();	
+}

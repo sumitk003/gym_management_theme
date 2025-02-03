@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>about_us</title>
+  <!-- website title icon -->
+  <link rel="shortcut icon" href="../assets/logo/icon.jpg" type="image/x-icon">
+  <!-- boxicons cdn link  -->
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css">
+  <!-- Css CDN link  -->
+  <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+  <!-- coustom css link  -->
+  <link rel="stylesheet" href="../assets/sass/main.css">
+  <!-- Google font link  -->
+  <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
+</head>
+
+<body>
+  <!-- navbar start -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark p-3 sticky-top">
+    <div class="container-fluid ">
+      <a class="navbar-brand" href="index.html"><img id="logo" src="../assets/logo/gym.png" alt=""></a>
+      <button id="togglericon" class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon "></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul id="navlinks" class="navbar-nav me-auto ms-md-auto p-auto ">
+          <li class="nav-item"><a class="nav-link active " aria-current="page" href="../src/index.html">Home</a>
+          </li>
+          <li class="nav-item ms-lg-5"><a class="nav-link " href="../src/about_us.html">About</a></li>
+          <li class="nav-item ms-lg-5"><a class="nav-link " href="../src/gallery.html">Gallery</a></li>
+          <li class="nav-item ms-lg-5"><a class="nav-link " href="../src/trainers.html">Trainers</a></li>
+          <li class="nav-item ms-lg-5"><a class="nav-link " href="../src/sign_in.html">Account</a></li>
+          <li class="nav-item ms-lg-5"><a class="nav-link " href="#footer">Contact</a></li>
+        </ul>
+        <form class="d-flex m-2 mt-md-auto">
+          <input id="link-input" class="form-control" type="search"  placeholder="Search Gym Products"
+            aria-label="Search">
+          <a onclick="searchit()" target="_blank" id="searchbtn" class="btn btn-lg ms-1" type="search">Search</a>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar ends -->
+
+  <!-- about header begin  -->
+  <section class="AboutUs_Section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <div class="AboutUs-text">
+            <h2>About us</h2>
+            <div class="bt-option">
+              <a href="./index.html"> Home </a>
+              <span>About</span>
+            </div>
+            <div class="story-title mt-5 text-wrap">
+              <span class="fw-bold">Our Story</span>
+              <p class="para mt-3 fw-bold"> in 2010, the EnergyZone Fitness gym opened in
+                Mohali in punjab, Of India. Over the next decade and a half,Fitness first was present in
+                over 16 countries, including Canada making it a
+                leader in the global fitness industry.
+                In 2018, Fitness First India was acquired by cure.fit, India's largest chain of fitness
+                centres that offers energetic group workouts and multiple workout formats to choose
+                from.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- about header end here  -->
+
+  <!-- what we have done section begin  -->
+  <section class="whatDone mt-5">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 p-0">
+          <div class="aboutVideo">
+            <iframe
+              src="https://www.youtube-nocookie.com/embed/dgttK0LcC3s?start=40?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1"
+              frameborder="0" allow="autoplay; encrypted-media"></iframe>
+          </div>
+        </div>
+        <div class="col-lg-6 p-0">
+          <div class="whatDoneText">
+            <div class="whatDoneTitle">
+              <span>Our Efforts</span>
+              <h2>What we have done</h2>
+            </div>
+          </div>
+          <div class="whatDoneDesc">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+              ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
+              viverra maecenas accumsan lacus vel facilisis. aliquip ex ea commodo consequat sit amet,
+              consectetur adipiscing elit, sed do eiusmod tempor.</p>
+          </div>
+          <div class="WhatDoneProgress">
+            <div class="progressItem">
+              <p>Body building</p>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuemin="0" aria-valuemax="100">
+                  80%
+                </div>
+              </div>
+            </div>
+            <div class="progressItem">
+              <p>Training</p>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuemin="0" aria-valuemax="100">
+                  85%
+                </div>
+              </div>
+            </div>
+            <div class="progressItem">
+              <p>Fitness</p>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuemin="0" aria-valuemax="100">
+                  75%
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- footer section begin-->
+    <footer class="footer-section" id="footer">
+      <div class="container">
+        <!-- getInTouch section start -->
+        <div class="getInTouch">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="information">
+                <i class="fa fa-map-marker"></i>
+                <p> Address: A-45, Industrial Area, Sector 74, Sahibzada Ajit Singh
+                  Nagar, Punjab 160059</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="information">
+                <i class="fa fa-mobile"></i>
+                <ul>
+                  <li>0172 417 0445</li>
+                  <li>+91 9465344735</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="information">
+                <i class="fa fa-envelope"></i>
+                <ul>
+                  <li>sales@bluebash.co</li>
+                  <li>sumit.kumar@bluebash.co</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- getInTouch section end -->
+  
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="about-socialMedia">
+              <div class="logo">
+                <a href="../src/index.html"> <img src="../assets/logo/gym.png" alt=""></a>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
+                architecto minus voluptate ducimus
+                saepe nostrum, eius harum. Esse eius, debitis ea maxime ab veritatis quia?</p>
+              <div class="social-icon">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube-play"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.gmail.com/" target="_blank"><i class="fa  fa-envelope-o"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-6">
+            <div class="usefulLinks text-center">
+              <h4>Useful Links </h4>
+              <ul class="text-center">
+                <li><a href="../src/about_us.html">About</a></li>
+                <li><a href="../src/index.html">Product</a></li>
+                <li><a href="../src/index.html">Membership</a></li>
+                <li><a href="../src/index.html">Search</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-6">
+            <div class="usefulLinks">
+              <h4 class="ms-4 text-center">Support</h4>
+              <ul class="support text-center">
+                <li><a class="list-style-none" href="../src/sign_in.html">Login</a></li>
+                <li><a href="../src/sign_in.html">My account</a></li>
+                <li><a href="../src/index.html">Subscribe</a></li>
+                <li><a href="../src/index.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-6">
+            <div class="location text-center">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13721.86312735482!2d76.6892073!3d30.7053035!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd4d364c39ab17942!2sBluebash%20Consulting%20Private%20Limited!5e0!3m2!1sen!2sin!4v1643913617455!5m2!1sen!2sin"
+                class="w-100" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+          </div>
+        </div>
+        <hr class="bg-light">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <div class="copy-right-text text-light">
+              copyright &copy;
+              <script>document.write(new Date().getFullYear());</script> All rights reserved.
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer section end -->
+    <button class="btn btn-sm" id="scrolling_button" value="Top">Top</button>
+
+  <!-- cdn link of javascript -->
+  <script src="../assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- coustom javascript link -->
+  <script src="../assets/js/main.js"></script>
+  <!-- fontawesome cdn -->
+  <script src="https://kit.fontawesome.com/2cdeb7e939.js"></script>
+</body>
+
+</html>

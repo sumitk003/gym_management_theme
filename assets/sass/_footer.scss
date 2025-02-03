@@ -1,0 +1,79 @@
+.getInTouch{
+	padding: 1rem 0rem;
+	margin-bottom: 2rem;
+ }
+ .getInTouch .information{
+	overflow: hidden;
+	margin-bottom: 1rem;
+ }
+ .getInTouch .information i{
+	font-size: 1.8rem;
+    color: #ffffff;
+	height: 4rem;
+	width: 4rem;
+	background:$color;
+	border-radius: 50%;
+	line-height: 4rem;
+	text-align: center;
+	float: left;
+	left: 2rem;
+	margin-right: 1.5rem;
+ }
+ .getInTouch .information ul{
+	overflow: hidden;
+	margin-bottom: 1.8rem;
+ }
+ .getInTouch .information p{
+	font-size: 1rem;
+	color: #ffffff;
+    position: relative;
+ }
+ .getInTouch .information ul li{
+	list-style: none;	
+	font-size: 1rem;
+	color: #ffffff;
+	position: relative;
+	word-wrap: break-word;
+ }
+.footer-section{
+	color: #111111;
+}
+.about-socialMedia{
+	margin-bottom: 1.8rem;
+}
+.about-socialMedia .logo{
+	margin-bottom:  1.8rem;
+}
+.footer-section .about-socialMedia .logo a img {
+	height:2rem;
+}
+.about-socialMedia .logo a{
+	display: inline-block;
+}
+.about-socialMedia p{
+	line-height:1.5rem;
+	color: #c4c4c4;
+}
+.about-socialMedia .social-icon a{
+	font-size: 25px;
+	color: #c4c4c4;
+	margin-right: 10px;
+}
+.about-socialMedia .social-icon a:hover{
+	color: $color;
+}
+.footer-section .usefulLinks h4{
+	color: #c4c4c4;
+}
+.footer-section .usefulLinks ul{
+    list-style: none;
+}
+.footer-section .usefulLinks ul li a{
+	text-decoration: none;
+    list-style-type: none;
+	color: #c4c4c4;
+	font-size: 1rem;
+	display: inline-block;
+	padding: 0.5rem;
+	position: relative;	
+}

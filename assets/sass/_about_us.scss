@@ -1,0 +1,77 @@
+.AboutUs_Section {
+	height: auto;
+	padding-top: 230px;
+	background-image: url("../images/AboutUs.jpg");
+	background-size:cover;
+	background-position: center;
+}
+.AboutUs-text h2 {
+	@include h2();
+}
+.AboutUs-text  .bt-option a {
+	@include Breadcrumb-link();	
+}
+.AboutUs-text  .bt-option span {
+	@include Breadcrumb-span();
+}
+
+.AboutUs-text .story-title{
+	border-radius: 2rem;
+	padding: 2rem;
+}
+.AboutUs-text .story-title span {
+	padding-top: 2rem;
+	color: #c4c4c4;
+	font-size: 2rem;
+	padding-bottom: 0.5rem;
+	border-bottom: 4px solid $color;
+	width:10px;
+}
+.AboutUs-text .story-title p {
+	color: #c4c4c4;
+	font-size: 1.2rem;
+}
+/* -------second section css  of AboutUs ----------- */
+.whatDone .aboutVideo iframe{
+	height: 640px;
+	display: flex;
+	width: 90%;
+	align-items: center;
+	justify-content: center;
+}
+.whatDoneText{
+	padding-top: 6rem;
+	
+}
+.whatDoneText .whatDoneTitle{
+	text-align: left;
+	margin-bottom: 2rem;
+	color: #ffffff;
+}
+.whatDoneText .whatDoneTitle span{
+	color: $color;
+	font-size: 1rem;
+	font-weight: bold;
+	margin-bottom: 1rem;
+	display: block;
+}
+.whatDoneText .whatDoneTitle h2{
+	text-transform: capitalize;
+	font-weight: 550;
+	font-size: 3rem;
+}
+.whatDone .whatDoneDesc p{
+	color: #c4c4c4;
+	margin-bottom: 1.5rem;
+}
+.whatDone .WhatDoneProgress .progressItem {
+	margin-bottom: 2rem;
+}
+.whatDone .WhatDoneProgress .progressItem p{
+	color: #c4c4c4;
+	font-weight: bold;
+}
+.whatDone .WhatDoneProgress .progressItem .progress .progress-bar{
+	background-color: $color;
+	font-weight: bolder;
+}

@@ -1,0 +1,35 @@
+body .Gallery-Images{
+    overflow-x: hidden;
+}
+.Gallery-Section{
+    background-image: url("../images/gallery_main.jpg");
+    height: auto;
+    padding-top: 800px;
+    background-size:cover;  
+}
+.Gallery-Section .Gallery-Text h2{
+    @include h2();
+    margin-top: -30rem;
+}
+.Gallery-Section .Gallery-Text .bt-option a{
+    @include Breadcrumb-link();
+}
+
+.Gallery-Section .Gallery-Text .bt-option span{
+
+    @include Breadcrumb-span();
+
+}
+.Gallery-Images{
+    margin-top: 5rem;
+}
+.Gallery-Images .Gallery-Heading h2{
+    margin-bottom:2rem;
+    color: #c4c4c4;
+}
+.Gallery-Images .Gallery-Collaction img{
+    margin-bottom: 2rem;
+    height:28rem;
+    width: 22rem;
+    object-fit: cover;
+}
